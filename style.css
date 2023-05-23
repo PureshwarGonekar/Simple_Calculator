@@ -25,15 +25,17 @@ body{
 }
 
 input{
+    color: white;
     width: 320px;
     border: none;
     padding: 24px;
     margin: 10px;
     background-color: transparent;
     box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
-    font-size: 40px;
+    font-size: 25px;
     text-align: right;
-    cursor: pointer;
+    cursor: text;
+    text-size-adjust:inherit;
 }
 
 input::placeholder{
@@ -53,8 +55,24 @@ button{
     cursor: pointer;
 }
 
-.equalBtn{
+button:hover{
+    background-color: #7173771b;
+}
+
+#equalBtn{
     background-color: #fb7c14;
+}
+#Allclear, #Delete{
+    background-color: #de0b0bcd;
+}
+
+#equalBtn{
+    background-color: #fb7c14;
+}
+
+
+.equalBtn:hover{
+    background-color: #fb7c14c2;
 }
 
 .operator{

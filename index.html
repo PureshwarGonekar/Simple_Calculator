@@ -6,37 +6,38 @@
     </head>
     <body>
             <div class="calculator">
-                <input type="text" id="display" placeholder="0">
+                <input type="number" id="display" placeholder="0" readonly>
                 <div>
-                     <button class="operator">AC</button>
-                     <button class="operator">DEL</button>
+                     <button id="Allclear">AC</button>
+                     <button id="Delete">DEL</button>
                      <button class="operator">%</button>
                      <button class="operator">/</button>
                 </div>
                 <div>
-                     <button>7</button>
-                     <button>8</button>
-                     <button>9</button>
+                     <button id="btn7" class="operand">7</button>
+                     <button id="btn8" class="operand">8</button>
+                     <button id="btn9" class="operand">9</button>
                      <button class="operator">*</button>
                 </div>
                 <div>
-                     <button>4</button>
-                     <button>5</button>
-                     <button>6</button>
+                     <button id="btn4" class="operand">4</button>
+                     <button id="btn5" class="operand">5</button>
+                     <button id="btn6" class="operand">6</button>
                      <button class="operator">-</button>
                 </div>
                 <div>
-                     <button>3</button>
-                     <button>2</button>
-                     <button>1</button>
+                     <button id="btn3" class="operand">3</button>
+                     <button id="btn2" class="operand">2</button>
+                     <button id="btn1" class="operand">1</button>
                      <button class="operator">+</button>
                 </div>
                 <div>
-                     <button>00</button>
-                     <button>0</button>
-                     <button>.</button>
-                     <button class="equalBtn">=</button>
+                     <button id="btn00" class="operand">00</button>
+                     <button id="btn0" class="operand">0</button>
+                     <button id="btndot" class="operand">.</button>
+                     <button id="equalBtn">=</button>
                 </div>
             </div>
+            <script type="text/javascript" src="working.js"></script>
     </body>
 </html>

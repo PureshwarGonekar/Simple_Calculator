@@ -10,7 +10,7 @@ In this web-based calculator, I have utilized HTML, CSS, and JavaScript to creat
 
 2. **Basic Arithmetic Operations:** Perform simple mathematical calculations with ease. The calculator supports addition, subtraction, multiplication, and division, allowing you to compute basic equations quickly. The buttons for these operations are clearly labeled and easily accessible.
 
-3. **Numeric Input:** Input numbers effortlessly using the provided numerical buttons. These buttons include digits from 0 to 9, allowing you to input any combination of numbers required for your calculations.
+3. **Numeric Input:** Input numbers effortlessly using the provided numerical buttons. These buttons include digits from 0 to 9, allowing you to input any combination of numbers required for your calculations. The input can be given by both the ways i.e. via mouse click and keyboard.
 
 4. **Clear Functionality:** Correct any mistakes or reset the calculator by utilizing the clear button. This button clears the input and output, allowing you to start fresh with a new calculation.
 
@@ -21,7 +21,7 @@ In this web-based calculator, I have utilized HTML, CSS, and JavaScript to creat
 <hr>
 
 ## Screenshot
-<img src="img/ss.png">
+<img src="img/updatedss.png">
 <br>
 <br>
 
