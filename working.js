@@ -4,7 +4,7 @@ var input_var = document.getElementById('display');
 
 operands.forEach(element => {
     element.addEventListener('click',function(){
-        console.log('operand key is pressed',element);
+        // console.log('operand key is pressed',element);
         var prevalue= input_var.value;
         input_var.setAttribute("value", prevalue+element.innerText); 
     });
@@ -12,9 +12,9 @@ operands.forEach(element => {
 });
 operators.forEach(element => {
     element.addEventListener('click',function(){
-        console.log('operator key is pressed',element);
+        // console.log('operator key is pressed');
         var prevalue= input_var.value;
-        input_var.setAttribute("value", prevalue+element.innerText); 
+        input_var.setAttribute("value", prevalue + element.innerText); 
     });
     
 });
@@ -23,7 +23,7 @@ operators.forEach(element => {
 var ans = document.getElementById('equalBtn');
 function f_ans(){
     var prevalue= input_var.value;
-    console.log(prevalue)
+    // console.log(prevalue)
     var finalans= eval(prevalue);
     if(typeof finalans === 'undefined' || finalans === null) {
         input_var.setAttribute("value", "Error");
@@ -56,7 +56,7 @@ del.addEventListener('click',f_del);
 // -------------------code keyboard calculator-----------------------------
 document.addEventListener('keydown', function (keyboard){
     var code=keyboard.keyCode;
-    console.log(code);
+    // console.log(code);
     if (code >= 48 && code <= 57) { // number bar in keyboard
         var text = String.fromCharCode(code);
         var prevalue= input_var.value;
