@@ -1,4 +1,4 @@
-# Welcome to My Simple Calculator!
+# Simple Calculator
 
 [Live Demo <img src="img/live.png" width=25 height=25>](https://pureshwargonekar.github.io/Simple_Calculator/)
 
